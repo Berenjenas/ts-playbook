@@ -84,7 +84,7 @@ type A = IsString<string>; // "yes"
 type B = IsString<number>; // "no"
 ```
 
-Conditional types can be used to create more complex type transformations, such as filtering out certain types from a
+Conditional types can be used to create more complex type transformations, such as filtering out certain types from an
 union.
 
 ```typescript
